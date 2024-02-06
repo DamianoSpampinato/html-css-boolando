@@ -38,7 +38,7 @@ padding: 20px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 900px;
     margin:auto;
 }
 ul{
@@ -47,7 +47,6 @@ ul{
 }
 img.logo{
     max-width: 85px;
-    transform: translate(-50%);
     align-self: center;
 }
 
@@ -71,4 +70,92 @@ img.logo{
 
 li, i{
     margin-left: 10px;
+}
+
+/*------------
+ /header
+------------*/
+
+/*------------
+ container cards
+------------*/
+
+.container{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card{
+    width: calc(100% / 3 - 10px);
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.card-img{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.tags{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+.tag{
+    color: #ffff;
+    padding: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.green{
+    background-color: #008000;
+}
+
+h6{
+    font-weight: 800;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+.price-strike{
+ text-decoration: line-through;
+}
+
+
+
+
+/*--------
+HOVER
+---------*/
+
+.heart:hover{
+    color: #ff0000;
+}
+
+.img2{
+    display: none;
+}
+
+.card:hover .img1{
+    display: none;
+}
+.card:hover .img2{
+    display: inline;
 }
