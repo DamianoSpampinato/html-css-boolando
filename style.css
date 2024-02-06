@@ -69,7 +69,7 @@ img.logo{
 }
 
 li, i{
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*------------
@@ -159,3 +159,28 @@ HOVER
 .card:hover .img2{
     display: inline;
 }
+
+/*------
+FOOTER
+------*/
+footer{
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.container-footer{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    color: #fff;
+}
+
+footer h5{
+    margin-bottom: 15px;
+}
+
+ footer li{
+    font-size: 13px;
+ }
+
+ 
